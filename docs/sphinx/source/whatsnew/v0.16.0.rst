@@ -75,6 +75,9 @@ Enhancements
 Documentation
 ~~~~~~~~~~~~~
 * Remove `g_poa_effective` from the :ref:`nomenclature` page (:pull:`2704`)
+* Clarify in the ``Notes`` section of :py:func:`pvlib.soiling.hsu` that the
+  default ``depo_veloc`` values correspond to the settling velocity of
+  particulates. (:issue:`2535`)
 
 
 Testing

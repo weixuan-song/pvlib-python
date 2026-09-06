@@ -67,13 +67,9 @@ def hsu(rainfall, cleaning_threshold, surface_tilt, pm2_5, pm10,
     corresponding to a soiling ratio of approximately 0.6875.
     See [1]_ for details.
 
-    The default values of ``depo_veloc`` correspond to the settling
-    velocity of particulates, i.e., only the gravitational movement of
-    particles. The model also accepts deposition velocities, which
-    comprise other types of particle-fluid interaction; however, the
-    authors of [1]_ found that deposition velocity considerably
-    overestimates soiling, while settling velocity performed well in
-    their case study.
+    As recommended by [1]_, the default values of ``depo_veloc``
+    are the settling velocities of particulates, i.e., only the gravitational
+    movement of particles.
 
     References
     -----------
